@@ -1,0 +1,177 @@
+Folder PATH listing for volume OS
+Volume serial number is 3A81-4AE8
+C:.
+¦   db.sqlite3
+¦   manage.py
+¦   structure.txt
+¦   
++---customer
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   0002_ordermodel_city_ordermodel_email_ordermodel_name_and_more.py
+¦   ¦   ¦   0003_ordermodel_is_paid.py
+¦   ¦   ¦   0004_ordermodel_is_shipped.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-312.pyc
+¦   ¦           0002_ordermodel_city_ordermodel_email_ordermodel_name_and_more.cpython-312.pyc
+¦   ¦           0003_ordermodel_is_paid.cpython-312.pyc
+¦   ¦           0004_ordermodel_is_shipped.cpython-312.pyc
+¦   ¦           __init__.cpython-312.pyc
+¦   ¦           
+¦   +---templates
+¦   ¦   ¦   order_pay_confirmation.html
+¦   ¦   ¦   
+¦   ¦   +---customer
+¦   ¦           about.html
+¦   ¦           base.html
+¦   ¦           footer.html
+¦   ¦           index.html
+¦   ¦           menu.html
+¦   ¦           navigation.html
+¦   ¦           order.html
+¦   ¦           order_confirmation.html
+¦   ¦           
+¦   +---__pycache__
+¦           admin.cpython-312.pyc
+¦           apps.cpython-312.pyc
+¦           models.cpython-312.pyc
+¦           views.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
++---deliver
+¦   ¦   asgi.py
+¦   ¦   settings.py
+¦   ¦   urls.py
+¦   ¦   wsgi.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---__pycache__
+¦           settings.cpython-312.pyc
+¦           urls.cpython-312.pyc
+¦           wsgi.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
++---media
+¦   +---menu_images
+¦           app1.jpeg
+¦           app2.jpeg
+¦           Cafe-Owners.png
+¦           desserts1.jpeg
+¦           desserts2.jpeg
+¦           drink1.jpeg
+¦           drink2.jpeg
+¦           Entre1.jpg
+¦           entre2.jpeg
+¦           
++---restaurant
+¦   ¦   account_adapter.py
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           __init__.cpython-312.pyc
+¦   ¦           
+¦   +---templates
+¦   ¦   +---restaurant
+¦   ¦           base.html
+¦   ¦           dashboard.html
+¦   ¦           navigation.html
+¦   ¦           order-details.html
+¦   ¦           
+¦   +---__pycache__
+¦           account_adapter.cpython-312.pyc
+¦           admin.cpython-312.pyc
+¦           apps.cpython-312.pyc
+¦           models.cpython-312.pyc
+¦           urls.cpython-312.pyc
+¦           views.cpython-312.pyc
+¦           __init__.cpython-312.pyc
+¦           
++---templates
+    ¦   base.html
+    ¦   
+    +---account
+    ¦   ¦   account_inactive.html
+    ¦   ¦   base.html
+    ¦   ¦   email.html
+    ¦   ¦   email_confirm.html
+    ¦   ¦   login.html
+    ¦   ¦   logout.html
+    ¦   ¦   password_change.html
+    ¦   ¦   password_reset.html
+    ¦   ¦   password_reset_done.html
+    ¦   ¦   password_reset_from_key.html
+    ¦   ¦   password_reset_from_key_done.html
+    ¦   ¦   password_set.html
+    ¦   ¦   signup.html
+    ¦   ¦   signup_closed.html
+    ¦   ¦   verification_sent.html
+    ¦   ¦   verified_email_required.html
+    ¦   ¦   
+    ¦   +---email
+    ¦   ¦       email_confirmation_message.txt
+    ¦   ¦       email_confirmation_signup_message.txt
+    ¦   ¦       email_confirmation_signup_subject.txt
+    ¦   ¦       email_confirmation_subject.txt
+    ¦   ¦       password_reset_key_message.txt
+    ¦   ¦       password_reset_key_subject.txt
+    ¦   ¦       
+    ¦   +---messages
+    ¦   ¦       cannot_delete_primary_email.txt
+    ¦   ¦       email_confirmation_sent.txt
+    ¦   ¦       email_confirmed.txt
+    ¦   ¦       email_deleted.txt
+    ¦   ¦       logged_in.txt
+    ¦   ¦       logged_out.txt
+    ¦   ¦       password_changed.txt
+    ¦   ¦       password_set.txt
+    ¦   ¦       primary_email_set.txt
+    ¦   ¦       unverified_primary_email.txt
+    ¦   ¦       
+    ¦   +---snippets
+    ¦           already_logged_in.html
+    ¦           
+    +---bootstrap4
+    ¦       uni_form.html
+    ¦       
+    +---openid
+    ¦       base.html
+    ¦       login.html
+    ¦       
+    +---socialaccount
+    ¦   ¦   authentication_error.html
+    ¦   ¦   base.html
+    ¦   ¦   connections.html
+    ¦   ¦   login_cancelled.html
+    ¦   ¦   signup.html
+    ¦   ¦   
+    ¦   +---messages
+    ¦   ¦       account_connected.txt
+    ¦   ¦       account_connected_other.txt
+    ¦   ¦       account_connected_updated.txt
+    ¦   ¦       account_disconnected.txt
+    ¦   ¦       
+    ¦   +---snippets
+    ¦           login_extra.html
+    ¦           provider_list.html
+    ¦           
+    +---tests
+            test_403_csrf.html
+            
